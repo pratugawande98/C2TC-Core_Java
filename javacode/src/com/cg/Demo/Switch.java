@@ -1,4 +1,4 @@
-package javacode;
+package com.cg.Demo;
 
 public class Switch {
 	public static void main(String[] args) 

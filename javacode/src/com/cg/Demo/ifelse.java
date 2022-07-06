@@ -1,4 +1,4 @@
-package javacode;
+package com.cg.Demo;
 
 public class ifelse {
 
