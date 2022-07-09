@@ -1,12 +1,13 @@
 package com.cg.Demo;
+import javafx.application.Application;
 
 import java.util.Scanner;
 
 public class Evenodd
 {
-	public static void main(String[]args)
+	public static void main (String[] args)
 	{
-		Scanner a=new Scanner(System.in);
+		Scanner a =new Scanner(System.in);
 		System.out.println("Enter a number:");
 		int num=a.nextInt();
 		if(num%2 == 0)
