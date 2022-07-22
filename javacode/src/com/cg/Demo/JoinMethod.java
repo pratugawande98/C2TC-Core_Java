@@ -11,7 +11,7 @@ public void run() {
 		{
 			System.out.println(e);
 		}
-	}char[] i;
+	}char[] i = null;
 	System.out.println(i);
 }
 	public static void main(String[] args) {
