@@ -1,20 +1,11 @@
 package com.cg.Demo;
-
-public class AbsatractDemo {
-
-	public static void main(String[] args) {
-		Scooty Activa=new Scooty();
-		Activa.noOfWheels();
-	}
-}
-abstract class Vehicle
-{
-	abstract void noOfWheels();
-}
-class Scooty extends Vehicle
-{
-	void noOfWheels()
-	{
-		System.out.println(2);
-	}
-}
+abstract class Bike{  
+	  abstract void run();  
+	}  
+	class Honda4 extends Bike{  
+	void run(){System.out.println("running safely");}  
+	public static void main(String args[]){  
+	 Bike obj = new Honda4();  
+	 obj.run();  
+	}  
+	}  

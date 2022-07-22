@@ -1,5 +1,4 @@
 package com.cg.Demo;
-import javafx.application.Application;
 
 import java.util.Scanner;
 
